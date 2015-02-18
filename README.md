@@ -1,11 +1,19 @@
 # Stock-DCF-Valuation-Program
 Retrieves financial data from XBRL / Yahoo / Quandl and conducts DCF Valuation
-Last Updated - October 2013
+Last Updated - August 2013
 
 Program retrieves data from 3 sources, cleans it, and stores it into a local MySQL instance:
  1. XBRL documents located on the SEC website
  2. Yahoo! Finance Web Scraping
  3. Quandl API
+
+I separated the program into 3 layers:
+ 1. Data Access Layer
+    - Responsible for querying, cleaning, storing, and retrieving data. 
+ 2. Business Object Layer
+    - Consists of all logical objects used to store values within the program. (Ex. Company, BalanceSheet, IncomeStatement, DiscountedCashFlow, etc.)
+ 3. Business Logic Layer
+    - Responsible for program/DCF business logic and creation of excel documents. 
 
 After data retrieval is finished, the user can run the Stock Valuation Test Class to conduct DCF analysis for all companies 
 that have valid information. The DCF analysis is briefly explained below:
