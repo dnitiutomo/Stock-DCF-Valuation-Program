@@ -23,7 +23,7 @@ that have valid information. The DCF analysis is briefly explained below:
 - Calculated the terminal value: Nop * (1-(terminalGrowth/Roic)) /(WACC – terminalGrowth)
 - Because hundreds of valuations were performed for each company, I averaged the valuations for each company based on how revenue growth was calculated. 
    - I subtracted the average value from the current value of the stock price to determine how undervalued/overvalued the stock was.
-   - I justified this method of averaging because each company was analyzed and using the same method. 
+   - DCF is highly subjective, so I tried to make it more objective through this method of averaging as each company was analyzed and compared using the same method. 
 
 Printed the results to a 2 excel documents:
 1. August_4_company_financial_rank_table.xlsx (Contains the DCF Valuations)
