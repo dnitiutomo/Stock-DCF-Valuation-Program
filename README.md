@@ -35,5 +35,7 @@ that have valid information. The DCF analysis is briefly explained below:
    - DCF is highly subjective, so I tried to make it more objective through this method of averaging as each company was analyzed and compared using the same method. 
 
 Printed the results to a 2 excel documents:
+
 1. August_4_company_financial_rank_table.xlsx (Contains the DCF Valuations)
+
 2. QuandlYearlyData_2013_10_27_2240.xlsx (Uses Quandl data to compare stock fundamentals - no DCF analysis)
