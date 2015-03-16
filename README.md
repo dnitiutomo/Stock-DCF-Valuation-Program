@@ -1,7 +1,7 @@
 # Stock-DCF-Valuation-Program
 Retrieves financial data from XBRL / Yahoo / Quandl and conducts DCF Valuation
 
-Last Updated - August 2013
+Last Updated - Oct 2013
 
 I separated the program into 3 layers:
  1. Data Access Layer
